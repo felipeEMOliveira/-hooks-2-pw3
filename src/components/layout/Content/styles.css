@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    background-color: #212529;
+    color: #ffffff;
+    padding: 30px;
+}
+
+.content > * {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.content {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 auto;
+    padding: 10px;
+    width: 70%;
+}
+
+.title {
+    margin-bottom: 20px;
+    color: #f2f2f2;
+    font-size: 18px;
+}
+
+.title h1, h2 {
+    margin: 0;
+}
